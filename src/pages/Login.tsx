@@ -48,7 +48,7 @@ export default function Login() {
                             </div>
                             
                             <div className="grid p-fluid">
-                                <div className="col-12 md:col-12 mb-3">
+                                <div className="mb-5">
                                     <div className="p-inputgroup">
                                         <span className="p-inputgroup-addon">
                                             <i className="pi pi-user" />
@@ -57,11 +57,10 @@ export default function Login() {
                                             <InputText id="username" type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
                                             <label className="font-bold block text-center mb-3" htmlFor="username">Username</label>
                                         </FloatLabel>
-                                        
                                     </div>
                                 </div>
 
-                                <div className="col-12 md:col-12 mb-6">
+                                <div className="mb-6">
                                     <div className="p-inputgroup">
                                         <span className="p-inputgroup-addon">
                                             <i className="pi pi-key" />
