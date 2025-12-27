@@ -1,8 +1,15 @@
-﻿#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+.app-shell {
+    display: flex;
+    min-height: 100vh;
+    background: #0b1220;
+    color: #e5e7eb;
+}
+
+.app-main {
+    flex: 1;
+    min-height: 100vh;
+    padding: 1.5rem;
+    overflow: auto;
 }
 
 th, td {
